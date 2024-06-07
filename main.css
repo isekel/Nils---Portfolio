@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('hacked-font/Hacked-KerX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'MyFont',Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #1b1c1d;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h2{
+    font-size: 4rem;
+    margin:0px;
+}
+
+header nav>ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    gap: 10%;
+    justify-content: end;
+    padding-right: 2%;
+    align-items: center;
+}
+
+/* effet hover*/
+header nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 2.5rem;
+}
+
+header nav li a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+header nav li a:hover:after {
+    width: 90%;
+    background: #84D022;
+}
+
+div#Premiere_Page, div#Page_Presentation, div#Page_Projet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div#Premiere_Page{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+#Premiere_Page p{
+    max-width: 30%;
+    font-size: 3rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 25vh;
+}
+#Premiere_Page p span{
+    color: #84D022;    
+}
+#Premiere_Page button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #84D022;
+
+}
+#Premiere_Page button img{
+    max-width: 30px;
+    max-height: 30px;
+    
+}
+#Page_Presentation{
+    margin-top: 40vh;
+}
+#Page_Presentation #Contenue{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    
+}
+/*#Page_Presentation p{
+    
+}
+#Page_Presentation #competence{
+    
+    
+}*/
+
+.sidebar {
+    width: 500px; /* Adjust width as needed */
+    padding: 40px;
+    border-radius: 8px;
+    /*border: #84D022 2px solid;*/
+}
+.sidebar h2{
+    color: #84D022;
+}
+
+#skills {
+    margin: 0;
+}
+
+.skills-charts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.chart {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.chart img.language-logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+    
+}
+
+.bar {
+    background-color: #e0e0e0; /* Background color for the whole bar */
+    border-radius: 5px;
+    position: relative;
+    width: 100%; /* Full width */
+    height: 30px; /* Height of the bar */
+    margin-left: 20px;
+}
+
+.bar-filled {
+    background-color: #84D022; /* Color for the filled part */
+    border-radius: 5px 0 0 5px; /* Rounded corners for the filled part */
+    height: 100%;
+    transition: width 1s;
+}
+
+.percentage {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    font-size: 24px;
+}
+
+
+.circle {
+    height: 400px;
+    width: 550px;
+    background-color: #84D022;
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: blur(500px);
+    position: absolute;
+    z-index: -1;
+    
+    
+  }
+#onecircle{
+    top:-4%;
+    right: -6%;
+}
+#twocicle{
+    top:-1%;
+    left: 12%;
+}
+#theercircle{
+    top:30%;
+    right:32%;
+
+}
+/*.container {
+    
+    font-size: 2em;
+    font-weight: bold;
+    
+    margin-top: 100px;
+}
+

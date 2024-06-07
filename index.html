@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nils Rayot</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <figure>
+                <h2>Nils <br>Rayot</h2>
+            </figure>
+            <ul>
+                <li>
+                    <a href="#Page_Presentation">Presentation</a>
+                </li>
+
+                <li>
+                    <a href="#Page_Projet">Mes projet</a>
+                </li>
+                <li>
+                    <a href="form/form.html">Me contacter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="Premiere_Page">
+          <div class="circle" id="onecircle"></div>
+          <div class="circle" id="twocicle"></div>
+          <div class="circle" id="theercircle"></div>
+            <p>Je suis un <span>devellopeur junior</span>  actuellement en formation en BUT informatique </p>
+            <button onclick="scrollToSection('Page_Presentation')">
+              <span>decouvrir mon Portfolio</span>
+              <img src="img/fleche-vers-le-bas-pour-naviguer.png" alt="">
+            </button>
+            <script>
+              function scrollToSection(sectionId) {
+                  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+              }
+          </script>
+        </div>
+        <div id="Page_Presentation">
+            <h1> Presentation </h1>
+            <div id="Contenue">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo omnis iste accusamus natus, iusto vel perspiciatis a quam voluptatibus illo cupiditate quasi provident molestias possimus quas assumenda sint dolores nam.</p>
+            <div class="sidebar">
+              <section id="skills">
+                  <h2>Langages Maitrise</h2>
+                  <div class="skills-charts">
+                      <div class="chart">
+                          <img src="img/java.png" alt="java-logo" class="language-logo">
+                          <div class="bar">
+                              <div class="bar-filled" style="width: 30%;"></div>
+                              <span class="percentage">30%</span>
+                          </div>
+                      </div>
+                      <div class="chart">
+                          <img src="/img/assembleur.png" alt="assembleur" class="language-logo">
+                          <div class="bar">
+                              <div class="bar-filled" style="width: 80%;"></div>
+                              <span class="percentage">80%</span>
+                          </div>
+                      </div>
+                      <div class="chart">
+                          <img src="/img/psql.png" alt="Psql" class="language-logo">
+                          <div class="bar">
+                              <div class="bar-filled" style="width: 85%;"></div>
+                              <span class="percentage">85%</span>
+                          </div>
+                      </div>
+                      <div class="chart">
+                        <img src="/img/html.png" alt="Html" class="language-logo">
+                        <div class="bar">
+                            <div class="bar-filled" style="width: 85%;"></div>
+                            <span class="percentage">85%</span>
+                        </div>
+                    </div>
+                  </div>
+              </section>
+          </div>
+          </div>
+
+        </div>
+
+        <div id="Page_Projet">
+            <h1>Mes projet</h1>
+        <div id="Projets">
+            <!-- Projet 1-->
+            <div class="project">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="Projet 1">
+                <div class="overlay">
+                  <h3>S1.01/2</h3>
+                  <p>Repondre a un besoin client
+                    <br>Langage : java</p>
+                    <div class="container">
+                        <button class="learn-more">
+                          <span class="circlebtn" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                          </span>
+                          <span class="button-text">Voir plus</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <!-- Projet 2-->
+            <div class="project">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="Projet 2">
+                <div class="overlay">
+                  <h3>S1.03</h3>
+                  <p>cree un guide pour installer une station linux
+                    <br>Langage : bash</p>
+                    <div class="container">
+                        <button class="learn-more">
+                          <span class="circlebtn" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                          </span>
+                          <span class="button-text">Voir plus</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <!-- Projet 3-->
+            <div class="project">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="Projet 3">
+                <div class="overlay">
+                  <h3>S1.06</h3>
+                  <p>creation d'un site web pour une entreprise
+                    <br>Langage : html css
+                  </p>
+                  <div class="container">
+                    <button class="learn-more">
+                      <span class="circlebtn" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                      </span>
+                      <span class="button-text">Voir plus</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+            <!-- Projet 4-->
+            <div class="project">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="Projet 4">
+                <div class="overlay">
+                  <h3>S2.03</h3>
+                  <p>
+                    instalation de service reseaux
+                    <br>Langage : bash
+                  </p>
+                  <div class="container">
+                    <button class="learn-more">
+                      <span class="circlebtn" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                      </span>
+                      <span class="button-text">Voir plus</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+            <!-- Projet 5-->
+            <div class="project">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="Projet 5">
+                <div class="overlay">
+                  <h3>S2.0[1256]</h3>
+                  <p>cree une application lourde
+                    <br>langage : java avec JavaFX</p>
+                    <div class="container">
+                        <button class="learn-more">
+                          <span class="circlebtn" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                          </span>
+                          <span class="button-text">Voir plus</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <!-- Projet 6-->
+            <div class="project">
+                <img src="https://st4.depositphotos.com/12981370/24312/i/450/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg" alt="Projet 6">
+                <div class="overlay">
+                  <h3>P2.01</h3>
+                  <p>Portfolio
+                    <br>Langage : html css
+                  </p>
+                  <div class="container">
+                    <button class="learn-more">
+                      <span class="circlebtn" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                      </span>
+                      <span class="button-text">Voir plus</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
