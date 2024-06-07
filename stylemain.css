@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #1b1c1d;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1{
+    font-size: 2.5rem
+}
+
+header nav>ul{
+    list-style: none;
+    display: flex;
+    width: 40%;
+    gap: 10%;
+    justify-content: end;
+    padding-right: 2.5%;
+    align-items: center;
+}
+
+/* effet hover*/
+header nav a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.5rem;
+}
+
+header nav li a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+header nav li a:hover:after {
+    width: 90%;
+    background: #84D022;
+}
+
+div#Premiere_Page, div#Page_Presentation, div#Page_Projet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div#Premiere_Page{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+
+#Premiere_Page p{
+    max-width: 30%;
+    font-size: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.circle {
+    height: 400px;
+    width: 550px;
+    background-color: #84D022;
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: blur(500px);
+    position: absolute;
+    z-index: -1;
+    
+    
+  }
+#onecircle{
+    top:-4%;
+    right: -6%;
+}
+#twocicle{
+    top:-1%;
+    left: 12%;
+}
+#theercircle{
+    top:30%;
+    right:32%;
+
+}
+/*.container {
+    
+    font-size: 2em;
+    font-weight: bold;
+    
+    margin-top: 100px;
+}
+
