@@ -40,7 +40,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: #FFFAF0;
     opacity: 0;
     transition: opacity 0.3s ease;
     ;
@@ -109,7 +109,7 @@ button.learn-more .circlebtn .icon {
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #fff;
+  background: #FFFAF0;
 }
 
 button.learn-more .circlebtn .icon.arrow {
@@ -127,8 +127,8 @@ button.learn-more .circlebtn .icon.arrow::before {
   right: 0.0625rem;
   width: 0.625rem;
   height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
+  border-top: 0.125rem solid #FFFAF0;
+  border-right: 0.125rem solid #FFFAF0;
   transform: rotate(45deg);
 }
 
@@ -153,12 +153,12 @@ button:hover .circlebtn {
 }
 
 button:hover .circlebtn .icon.arrow {
-  background: #fff;
+  background: #FFFAF0;
   transform: translate(1rem, 0);
 }
 
 button:hover .button-text {
-  color: #fff;
+  color: #FFFAF0;
 }
 
 

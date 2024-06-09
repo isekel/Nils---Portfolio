@@ -9,7 +9,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'MyFont',Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: #FFFAF0;
     background-color: #1b1c1d;
     margin: 0px;
     padding: 0px;
@@ -39,12 +39,12 @@ header nav>ul{
 /* effet hover*/
 header nav button p{
     text-decoration: none;
-    color:#fff;
+    color:#FFFAF0;
     font-size: 2.5rem;
 }
 #btn_nav{
     text-decoration: none;
-    color:#fff;
+    color:#FFFAF0;
     font-size: 2.5rem;    
     color: #1b1c1d;
     padding: 10px 15px;
@@ -100,13 +100,17 @@ header nav button p{
     margin-top: 40vh;
     padding: 0%;
 }
+#Page_Presentation h1{
+    height: 5vh;
+}
 #Contenue{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 5%;
-    margin-top: 5%;
+    margin-top: 5vh;
     padding: 0%;
+    height: 80vh;
 }
 .G-sidebar{
     width: 25%;
@@ -123,7 +127,7 @@ header nav button p{
     border-radius: 20px;
 }
 .D-sidebar h2{
-    color: #fff;
+    color: #FFFAF0;
 }
 
 #skills {
@@ -178,31 +182,5 @@ header nav button p{
     transform: translateY(-50%);
     color: #333;
     font-size: 24px;
-}
-
-
-.circle {
-    height: 400px;
-    width: 550px;
-    background-color: #84D022;
-    border-radius: 50%;
-    opacity: 0.3;
-    filter: blur(500px);
-    position: absolute;
-    z-index: -1;
-    
-    
-}
-#onecircle{
-    top:-4%;
-    right: -6%;
-}
-#twocicle{
-    top:-1%;
-    left: 12%;
-}
-#theercircle{
-    top:30%;
-    right:32%;
 }
 
