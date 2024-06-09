@@ -37,7 +37,7 @@ header nav>ul{
 }
 
 /* effet hover*/
-header nav button{
+header nav button p{
     text-decoration: none;
     color:#fff;
     font-size: 2.5rem;
