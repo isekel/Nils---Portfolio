@@ -11,8 +11,6 @@ body{
     font-family: 'MyFont',Arial, Helvetica, sans-serif;
     color: #FFFAF0;
     background-color: #1b1c1d;
-    margin: 0px;
-    padding: 0px;
 }
 
 header nav{
@@ -99,6 +97,7 @@ header nav button p{
 #Page_Presentation{
     margin-top: 40vh;
     padding: 0%;
+    padding-top: 5%;
 }
 #Page_Presentation h1{
     height: 5vh;
@@ -108,23 +107,40 @@ header nav button p{
     flex-direction: row;
     justify-content: space-between;
     gap: 5%;
+    width: 100%;
     margin-top: 5vh;
     padding: 0%;
-    height: 80vh;
+    /*height: 80vh;*/
 }
 .G-sidebar{
     width: 25%;
+    background-color: rgb(71, 70, 70);
+    border-radius: 0px 30px 30px 0px;
+}
+.G-sidebar h4{
     text-align: center;
-    background-color: gray;
-    border-radius: 30px;
+    margin: 30px;
+}
+.G-sidebar>p{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .text_main{
     width: 30%;
+    align-self: center;
+}
+.text_main H3{
+    text-align:center;
+    margin: 30px;
+}
+.text_main>p{
+    text-align: center;
 }
 .D-sidebar {
     width: 30%; /* Adjust width as needed */
-    background-color: gray;
-    border-radius: 20px;
+    /*border: #84D022 2px solid;*/
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px 0px 0px 20px;
 }
 .D-sidebar h2{
     color: #FFFAF0;

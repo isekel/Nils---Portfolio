@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../hacked-font/Hacked-KerX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'MyFont',Arial, Helvetica, sans-serif;
+    color: #FFFAF0;
+    background-color: #1b1c1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 5%;
+}
+#main{
+    width: 60%;
+    height: 100%;
+}
+#main h2{
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
