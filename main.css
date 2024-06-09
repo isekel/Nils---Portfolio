@@ -114,7 +114,7 @@ header nav button p{
 }
 .G-sidebar{
     width: 25%;
-    background-color: rgb(71, 70, 70);
+    background-color: #808080;
     border-radius: 0px 30px 30px 0px;
 }
 .G-sidebar h4{
@@ -139,7 +139,7 @@ header nav button p{
 .D-sidebar {
     width: 30%; /* Adjust width as needed */
     /*border: #84D022 2px solid;*/
-    background-color: rgb(71, 70, 70);
+    background-color: #808080;
     border-radius: 20px 0px 0px 20px;
 }
 .D-sidebar h2{
