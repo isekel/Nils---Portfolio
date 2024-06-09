@@ -1,3 +1,7 @@
+#Page_Projet h1{
+  height: 5vh;
+}
+
 #Projets {
     display: flex;
     flex-direction: row;
@@ -5,12 +9,15 @@
     gap: 20px;
     justify-content: space-around;
     padding: 20px;
-    max-width: 65%;
+    max-width: 70%;
+    margin-top: 12.5vh;
+    height: 60vh;
+    margin-bottom: 12.5vh;
 }
 
 .project {
     position: relative;
-    width: 300px;
+    width: 400px;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -22,9 +29,8 @@
     transition: filter 0.3s ease;
 }
   
-.project:hover img {
+.project:hover img{
     filter: brightness(50%) blur(4px);
-    
 }
   
 .overlay {

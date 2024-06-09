@@ -1,28 +1,46 @@
 
 
+@font-face {
+    font-family: 'MyFont';
+    src: url('../hacked-font/Hacked-KerX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #000;
+            font-family: 'Myfont', sans-serif;
+            background-color: #1b1c1d;
             margin: 0;
             padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color:#84D022;
+            color:#fff;
             box-sizing: border-box;
+            font-size: 2rem;
         }
-
+        #back_btn{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            border-radius: 100px;
+            background-color: #84D022;
+            padding: 5px;
+        }
+        #back_btn img{
+            max-width: 50px;
+            max-height: 50px;
+        }
+        h1{
+            font-size: 3rem;
+            margin: 10%;
+        }
         .form-container {
             width: 100%;
-            max-width: 600px;
+            max-width: 800px;
             text-align: center;
             padding: 20px;
-        }
-
-        .form-container h1 {
-            margin-bottom: 20px;
-            font-size: 32px;
         }
 
         .form-group {
@@ -34,6 +52,7 @@
             display: block;
             margin-bottom: 8px;
             font-weight: bold;
+            color: #84D022;
         }
 
         .form-group input,

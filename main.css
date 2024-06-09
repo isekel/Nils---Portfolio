@@ -11,7 +11,8 @@ body{
     font-family: 'MyFont',Arial, Helvetica, sans-serif;
     color: #fff;
     background-color: #1b1c1d;
-    
+    margin: 0px;
+    padding: 0px;
 }
 
 header nav{
@@ -36,39 +37,42 @@ header nav>ul{
 }
 
 /* effet hover*/
-header nav a{
+header nav button{
     text-decoration: none;
     color:#fff;
     font-size: 2.5rem;
 }
-
-header nav li a:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 0;
-    background: transparent;
-    transition: width .5s ease, background-color .5s ease;
+#btn_nav{
+    text-decoration: none;
+    color:#fff;
+    font-size: 2.5rem;    
+    color: #1b1c1d;
+    padding: 10px 15px;
+    border: 3px #1b1c1d solid;
+    background-color: #84D022;
+    border-radius: 10px;
 }
-
-header nav li a:hover:after {
-    width: 90%;
-    background: #84D022;
+#btn_nav:hover{
+    background-color: #1b1c1d;
+    color: #84D022;
+    border: 3px solid #84D022;
 }
-
-div#Premiere_Page, div#Page_Presentation, div#Page_Projet{
+#Premiere_Page, #Page_Presentation, #Page_Projet{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-div#Premiere_Page{
+#Page_Projet{
+    margin-top: 40vh;
+}
+#Premiere_Page{
     position: relative;
     height: 80vh;
     width: 100%;
     text-align: center;
 }
+
 
 #Premiere_Page p{
     max-width: 30%;
@@ -88,39 +92,43 @@ div#Premiere_Page{
 
 }
 #Premiere_Page button img{
-    max-width: 30px;
-    max-height: 30px;
+    max-width: 80px;
+    max-height: 80px;
     
 }
 #Page_Presentation{
     margin-top: 40vh;
+    padding: 0%;
 }
-#Page_Presentation #Contenue{
+#Contenue{
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
-    
+    justify-content: space-between;
+    gap: 5%;
+    margin-top: 5%;
+    padding: 0%;
 }
-/*#Page_Presentation p{
-    
+.G-sidebar{
+    width: 25%;
+    text-align: center;
+    background-color: gray;
+    border-radius: 30px;
 }
-#Page_Presentation #competence{
-    
-    
-}*/
-
-.sidebar {
-    width: 500px; /* Adjust width as needed */
-    padding: 40px;
-    border-radius: 8px;
-    /*border: #84D022 2px solid;*/
+.text_main{
+    width: 30%;
 }
-.sidebar h2{
-    color: #84D022;
+.D-sidebar {
+    width: 30%; /* Adjust width as needed */
+    background-color: gray;
+    border-radius: 20px;
+}
+.D-sidebar h2{
+    color: #fff;
 }
 
 #skills {
     margin: 0;
+    text-align: center;
 }
 
 .skills-charts {
@@ -130,12 +138,12 @@ div#Premiere_Page{
 }
 
 .chart {
-    background-color: #f1f1f1;
     border-radius: 5px;
     padding: 20px;
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .chart img.language-logo {
@@ -144,12 +152,14 @@ div#Premiere_Page{
     margin-right: 20px;
     
 }
-
+.name_prog{
+    display: flex;
+}
 .bar {
     background-color: #e0e0e0; /* Background color for the whole bar */
     border-radius: 5px;
     position: relative;
-    width: 100%; /* Full width */
+    width: 60%; /* Full width */
     height: 30px; /* Height of the bar */
     margin-left: 20px;
 }
@@ -182,7 +192,7 @@ div#Premiere_Page{
     z-index: -1;
     
     
-  }
+}
 #onecircle{
     top:-4%;
     right: -6%;
@@ -194,13 +204,5 @@ div#Premiere_Page{
 #theercircle{
     top:30%;
     right:32%;
-
-}
-/*.container {
-    
-    font-size: 2em;
-    font-weight: bold;
-    
-    margin-top: 100px;
 }
 
