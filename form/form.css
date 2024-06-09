@@ -15,7 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color:#fff;
+            color:#fAEBD7;
             box-sizing: border-box;
             font-size: 2rem;
         }
@@ -59,7 +59,7 @@
         .form-group textarea {
             width: 100%;
             padding: 15px;
-            border: 2px solid #ddd;
+            border: 2px solid #fAEBD7;
             border-radius: 5px;
             font-size: 16px;
             transition: border-color 0.3s;
@@ -67,7 +67,7 @@
 
         .form-group input:focus,
         .form-group textarea:focus {
-            border-color: #fff;
+            border-color: #fAEBD7;
             outline: none;
         }
 
@@ -97,5 +97,5 @@
         }
 
         .form-group button:active {
-            background-color: #ccc;
+            background-color: #fAEBD7
         }
